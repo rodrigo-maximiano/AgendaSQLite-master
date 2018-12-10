@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="br.edu.ifspsaocarlos.agenda.activity.MainActivity">
+    <item
+        android:id="@+id/pesqContato"
+        app:showAsAction="ifRoom"
+        android:title="@string/nome_do_contato"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+    <item
+        android:id="@+id/pesqFavoritos"
+        app:showAsAction="ifRoom"
+        android:title="@string/pesquisa_favorito"
+        android:icon="@drawable/ic_star_white_24dp"
+        />
+</menu>
