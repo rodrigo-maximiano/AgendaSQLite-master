@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity{
                     contacts.addAll(result);
                     recyclerView.getAdapter().notifyDataSetChanged();
                 } else {
-                    showSnackBar("Não há contacts favoritados!");
+                    showSnackBar("Não há contatos favoritados!");
                 }
                 return true;
         }
